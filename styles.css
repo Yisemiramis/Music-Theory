@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    background-color: rgb(241, 233, 236);
+
+    color: rgb(45, 3, 56);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Grandstander', cursive;
+    padding-top: 15px;
+    padding-bottom: 15x;
+  
+}
+
+body
+{
+    background-color: #e67f7d;
+
+
+    
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+li
+{
+    
+    margin: 0 35px;
+    padding-top: 10px;
+    display: inline-block;
+
+}
+
+
+a
+{
+   color:rgb(90, 100, 214);
+   font-family: 'Grandstander', cursive;
+    text-decoration: none;
+    margin: 0;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0;
+  
+}
+
+a:hover
+{
+    
+   background-color: rgb(156, 192, 209);
+   border-radius: 5px;
+   
+}
+
+
+.int_link img
+{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 475px;
+    margin-top: 150px;
+}
+
+.int_link2 img
+{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    margin-left: 800px;
+    margin-top:  -250px;
+}
+
+@media only screen and (max-width:550px)
+{
+    body
+    {
+        height: 50px;
+        width: 100%;
+    }
+
+    .int_link a img
+
+    {
+       margin-top: 20px;
+        height:  250px;
+        margin-left: 120px;
+        width: 250px;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width:550px)
+{
+    body
+    {
+        height: 50px;
+        width: 100%;
+    }
+
+    .int_link2 a img
+
+    {
+        padding-top: 20px;
+        height:  250px;
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 250px;
+        justify-content: flex-start;
+       }
+
+       
+}
+
